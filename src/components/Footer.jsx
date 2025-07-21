@@ -41,30 +41,30 @@ export default function Footer() {
             <h4 className="font-bold text-white text-lg">Games</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   Ludo Supreme
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   Rummy Circle
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   Fantasy Cricket
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   Teen Patti Gold
-                </a>
+                </span>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/games" className="hover:text-white transition-colors duration-300 block py-1">
                   View All Games
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -73,30 +73,30 @@ export default function Footer() {
             <h4 className="font-bold text-white text-lg">Company</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <Link to="/contact" className="hover:text-white transition-colors duration-300 block py-1">
+                  Contact Us
+                </Link>
+              </li>
+              <li>
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   About Us
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   How to Play
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
                   Responsible Gaming
-                </a>
+                </span>
               </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
-                  Careers
-                </a>
-              </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
                   Press & Media
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -107,11 +107,6 @@ export default function Footer() {
               <li>
                 <Link to="/contact" className="hover:text-white transition-colors duration-300 block py-1">
                   Help Center
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact" className="hover:text-white transition-colors duration-300 block py-1">
-                  Contact Us
                 </Link>
               </li>
               <li>

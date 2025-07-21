@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function GameCard({ game, detailed = false }) {
   return (
-    <Link to="/wallet">
+    // <Link to="/wallet">
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:rotate-1 group cursor-pointer">
         {/* Game Image */}
         <div className="relative h-48 bg-gradient-to-br from-gray-800 to-gray-900 overflow-hidden">
@@ -73,6 +73,6 @@ export default function GameCard({ game, detailed = false }) {
           )}
         </div>
       </div>
-    </Link>
+    // </Link>
   );
 }
