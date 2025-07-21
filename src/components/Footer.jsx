@@ -78,19 +78,19 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
-                  About Us
-                </span>
+                <Link to="/" className="hover:text-white transition-colors duration-300 block py-1">
+                  Home
+                </Link>
               </li>
               <li>
-                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
-                  How to Play
-                </span>
+                <Link to="/games" className="hover:text-white transition-colors duration-300 block py-1">
+                  Games
+                </Link>
               </li>
               <li>
-                <span className="cursor-pointer hover:text-white transition-colors duration-300 block py-1">
-                  Responsible Gaming
-                </span>
+                <Link to="/wallet" className="hover:text-white transition-colors duration-300 block py-1">
+                  Wallet
+                </Link>
               </li>
               {/* <li>
                 <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
