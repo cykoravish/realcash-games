@@ -52,22 +52,16 @@ export default function ContactPage() {
       icon: "📧",
       title: "Email Us",
       details: "regenta.international@gmail.com",
+      details2: "info@regentainternational.in",
       description: "Send us an email anytime",
       color: "from-blue-500 to-purple-500",
     },
     {
       icon: "📞",
-      title: "Call Us",
+      title: "Chat With Us",
       details: "+91 72480 74661",
       description: "Available 24/7 for support",
       color: "from-green-500 to-blue-500",
-    },
-    {
-      icon: "📍",
-      title: "Visit Us",
-      details: "1st Floor, 160, Plot No. 2",
-      description: "Shahdara, Delhi 110095, India",
-      color: "from-purple-500 to-pink-500",
     },
     {
       icon: "🌐",
@@ -134,7 +128,7 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Info Cards */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {contactInfo.map((info, index) => (
               <div
                 key={index}
@@ -150,6 +144,7 @@ export default function ContactPage() {
                   {info.title}
                 </h3>
                 <p className="text-white font-semibold mb-1">{info.details}</p>
+                {info.details2 && <p className="text-white font-semibold mb-1">{info.details2}</p>}
                 <p className="text-gray-400 text-sm">{info.description}</p>
               </div>
             ))}

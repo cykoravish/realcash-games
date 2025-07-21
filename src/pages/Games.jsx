@@ -27,6 +27,7 @@ export default function GamesPage() {
       entryFee: "₹10-500",
       prizePool: "₹20-1000",
       category: "Board Games",
+      image:"/ludo.png"
     },
     {
       id: 2,
@@ -37,6 +38,7 @@ export default function GamesPage() {
       entryFee: "₹25-1000",
       prizePool: "₹50-2000",
       category: "Card Games",
+      image:"/rummy.png"
     },
     {
       id: 3,
@@ -47,6 +49,7 @@ export default function GamesPage() {
       entryFee: "₹50-2000",
       prizePool: "₹100-5000",
       category: "Fantasy Sports",
+      image:"/cricket.png"
     },
     {
       id: 4,
@@ -67,6 +70,7 @@ export default function GamesPage() {
       entryFee: "₹15-400",
       prizePool: "₹30-800",
       category: "Board Games",
+      image:"/carom.png"
     },
     {
       id: 6,
@@ -77,6 +81,7 @@ export default function GamesPage() {
       entryFee: "₹10-300",
       prizePool: "₹20-600",
       category: "Puzzle Games",
+      image:"/world.png"
     },
   ];
 

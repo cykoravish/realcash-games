@@ -14,10 +14,8 @@ export default function HomePage() {
   }, []);
 
   const popularGames = [
-    { id: 1, name: "Ludo Supreme", players: "2.5M+", rating: "4.8" },
-    { id: 2, name: "Rummy Circle", players: "1.8M+", rating: "4.8" },
-    { id: 3, name: "Fantasy Cricket", players: "3.2M+", rating: "4.8" },
-    { id: 4, name: "Teen Patti Gold", players: "1.5M+", rating: "4.8" },
+    { id: 1, name: "Ludo Supreme", players: "2.5M+", rating: "4.8", image:"/ludop.png" },
+    { id: 2, name: "Rummy Circle", players: "1.8M+", rating: "4.8", image:"/rummyp.png" },
   ];
 
   const features = [
@@ -118,7 +116,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
             {popularGames.map((game, index) => (
               <div
                 key={game.id}
