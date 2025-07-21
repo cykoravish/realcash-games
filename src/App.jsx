@@ -6,6 +6,7 @@ import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 import TermsConditionsPage from "./pages/TermsCondition";
 import ReturnRefundPolicyPage from "./pages/ReturnPolicy";
 import ScrollToTop from "./components/ScrollToTop";
+import ContactPage from "./pages/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/terms-conditions" element={<TermsConditionsPage />} />
         <Route path="/return-refund-policy" element={<ReturnRefundPolicyPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );

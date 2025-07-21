@@ -105,14 +105,14 @@ export default function Footer() {
             <h4 className="font-bold text-white text-lg">Support & Legal</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <a to="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <Link to="/contact" className="hover:text-white transition-colors duration-300 block py-1">
                   Help Center
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 block py-1">
+                <Link to="/contact" className="hover:text-white transition-colors duration-300 block py-1">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/terms-conditions" className="hover:text-white transition-colors duration-300 block py-1">
