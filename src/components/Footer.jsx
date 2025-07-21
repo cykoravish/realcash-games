@@ -156,7 +156,7 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-6 pt-6 flex flex-col lg:flex-row justify-between items-center text-sm text-gray-400 space-y-4 lg:space-y-0">
-          <p className="text-center lg:text-left">&copy; 2024 Regenta International. All rights reserved.</p>
+          <p className="text-center lg:text-left">&copy; 2025 Regenta International. All rights reserved.</p>
           <div className="flex flex-wrap justify-center lg:justify-end gap-4 lg:gap-6">
             <span className="text-green-400 flex items-center space-x-1">
               <span>✓</span>
